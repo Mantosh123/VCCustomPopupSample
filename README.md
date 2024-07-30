@@ -1,18 +1,15 @@
-# Native IOS Popup Sample
+## Native IOS Popup Sample
 VCCustomPopupSample is the used to show native view controller popup.
 
-## Usage
-
-### Get Bluetooth status
+### Usage
 
 ```swift
-        let storyboard = UIStoryboard(name: "Main", bundle: .main)
-        let vCtr = storyboard.instantiateViewController(withIdentifier: "PopupViewController")
-        vCtr.modalPresentationStyle = .overCurrentContext
-        present(vCtr, animated: true)
+    let storyboard = UIStoryboard(name: "Main", bundle: .main)
+    let vCtr = storyboard.instantiateViewController(withIdentifier: "PopupViewController")
+    vCtr.modalPresentationStyle = .overCurrentContext
+    present(vCtr, animated: true)
 ```
 
-
-## License
+### License
 
 VCCustomPopupSample is public to use.
